@@ -18,7 +18,7 @@ header{
 /* Navigtion */
 .navi{
 	position:fixed;
-	font-size: 25px;
+	font-size: 20px;
 	height: 75px;
 	width: 100%;
 	
@@ -85,7 +85,8 @@ footer{
 	width: 100%;
 	height: 400px;
 	position: absolute;
-	background-color: #FFFFFF;
+	background-color:#424B51;
+	border-bottom: 2px solid #EEEEEE;
 }
 
 
@@ -107,6 +108,17 @@ footer{
     margin-bottom: 30px;
 	
 	
+}
+
+/*EFFECT*/
+ img:hover{
+	
+	margin-left: auto;
+    margin-right: auto;
+	width:100%;
+	height:100%;
+	background-color:#FF6600;
+	opacity: 0.4; 
 }
 
 .img-con{
@@ -171,10 +183,41 @@ footer{
 	margin-left: auto;
     margin-right: auto;
     position:relative;
+    font-size:100px;
+    text-align:center;
 	margin-top: 301px;
-	 border-radius: 100px;
+	border-radius: 15px;
 	border:2px solid #424b51;
 	z-index: 2;
 }
 
+/*JQUERRY AUfklappen*/
 
+
+
+#open{
+	
+	width: 100%;
+	height: 400px;
+	background-color:#C7C9C8;
+	border-bottom: 2px solid #424b51;
+	
+}
+
+.conbutton {
+	padding: 5px 5px 5px 5px;
+	border:1px solid #EBEEED;
+	border-radius: 10px;	
+	width: 100px;
+	height: 30px;
+	color:#EBEEED;
+	font-size: 14px;
+	text-align: center;
+	text-indent:0;
+	position: relative;
+}
+.conbutton:hover{
+	background-color:#EBEEED;
+	color: #000000;
+	text-indent:0;
+}
