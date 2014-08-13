@@ -25,28 +25,33 @@
     				$(".fa-chevron-circle-down").on("click", function(){
        					 $("#open").toggle(); });
 			});
+			
+			
 		</script>
+	
 		
-		
-		<script>
 					
-					
-			$(".navi").css("color", "#424B51");		
-					
-					
-		</script>			<!-- IconFonts-->
-		
-		<script>
-				
-			$( document ).click(function() {
-					$( "#toggle" ).effect( "shake" );
-			});
+	<script>
+	$('img').hover( function(){  
+      $(this).find('.imghov').stop().fadeTo('.conbutton ','slow');
+   
+   });  
+  
+
 
 		</script>
+			
+			
+
+				<!-- IconFonts-->
+		
+	
 			<link rel="stylesheet" href="font/font-awesome-4.1.0/fonts/fontawesome-webfont.ttf">
 	</head>
 	
-		<header class="navi"><ul>
+		<header class="navi">
+	
+							<ul>
 							<li><a href="#">Home</a></li> 
 							<li><a href="#content">Dienstleistungen</a></li>
 							<li><a href="#">Über mich</a></li>	
@@ -62,7 +67,7 @@
 		
 		<div id="content">
 			<h2>Dienstleistungen</h2>
-			
+		
 			<!-- Über mich Blog Referenzen -->
 			<div class="container">
 				<div class="col-sm-4">
@@ -146,13 +151,75 @@
 
 			</div>
 			
-			
-			
 		</div>
 	
 		
 
-					<div id="open">
+					<div id="open" class="row">
+						<div class="container ref">
+							
+								 <div class="op-txt col-xs-6 col-md-4">
+								 	<p>	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+								 	   	tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+								 	   	vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+								 	   	no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+								 	   	consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+								 	   	dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+								 	   	dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
+								 	   	ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+								 	   	sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+										sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stetclita
+										kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.								
+										Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+										consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et 
+										iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore 
+										te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+										 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+										
+
+								 	</p>
+								 	
+								 	
+								 </div>
+								 <!--middle -->
+							 <div class="op-gal col-xs-6 col-md-4">
+							 					<script>
+														$(document).ready(function() {
+   															$(".pic-op").hide(0).delay(1500).fadeIn(3500);
+   															$(".pic-cms").hide(0).delay(2500).fadeIn(2500);
+																});
+												</script>
+										
+								 	<img class="pic-op" src="img/html.png"width="190px" height="120px">
+								 	<img class="pic-op" src="img/jq.png"width="220px" height="100px">
+								 	<img class="pic-cms" src="img/t3.png"width="200px" height="80px">
+								 		<img class="pic-cms" src="img/wp.png"width="190px" height="90px">
+								 </div>
+									 <div class="op-txt col-xs-6 col-md-4">
+								 	<p>	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
+								 	   	tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+								 	   	vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+								 	   	no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
+								 	   	consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et 
+								 	   	dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo 
+								 	   	dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
+								 	   	ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+								 	   	sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+										sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stetclita
+										kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.								
+										Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+										consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et 
+										iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore 
+										te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+										 sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.   
+										
+
+								 	</p>
+								 	
+								 	
+								 </div>
+						</div>
+					
 						
 					</div>
 		
@@ -162,7 +229,8 @@
 			
 			
 		</footer>
-	
+				
+			
 	
 		</body>
 	

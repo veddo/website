@@ -21,8 +21,9 @@ header{
 	font-size: 20px;
 	height: 75px;
 	width: 100%;
-	
+	z-index:1;
 	text-align: right;
+	
 }
 
 .navi a{
@@ -55,7 +56,7 @@ header{
 #slider{
 	
 	width: 100%;
-	height: 100%;
+	height: 740px;
 	background-image: url("../img/test.jpg")
 	
 	
@@ -98,7 +99,7 @@ footer{
     padding-right: 15px;
     height:300px;
     width: 90%;
-   
+   visibility: ;
 }
 
 /*Content  Box*/
@@ -111,14 +112,23 @@ footer{
 }
 
 /*EFFECT*/
- img:hover{
+img{
+	
+	
+}
+
+ #content img:hover{
 	
 	margin-left: auto;
     margin-right: auto;
-	width:100%;
-	height:100%;
+	width:150px;
+	height:150px;
 	background-color:#FF6600;
 	opacity: 0.4; 
+	
+ 	transition-delay:0.5s;
+	
+	
 }
 
 .img-con{
@@ -166,7 +176,7 @@ footer{
 }
 
 .head a:hover{
-	text-decoration: underline;
+	text-decoration: blink;
 	color: #4F8DB4;
 	transition-delay:0.5s;
 }
@@ -201,9 +211,66 @@ footer{
 	height: 400px;
 	background-color:#C7C9C8;
 	border-bottom: 2px solid #424b51;
+	margin-left: auto;
+    margin-right: auto;
+}
+.pic-op{
+	
+	
+	
+}
+.op-txt{
+	font-size:12px;
+	vertical-align: middle;	
+	width:30%;
+	height:350px;  
+	margin-top: 25px;
+	margin-left:40px;
+	border-bottom: 1px solid #4F8DB4;
+	border-right: 1px solid #4F8DB4;
+
+	
+}
+.op-txt:last-child{
+	border-bottom: 1px solid #4F8DB4;
+	border-left: 1px solid #4F8DB4;
+	border-right: none;
+}
+
+.op-txt:last-child:hover{
+	
+	border-left: none;
+}
+.op-gal{
+	font-size:12px;
+	vertical-align: middle;	
+	width:30%;
+	height:300px;  
+	margin-top: 80px;
+	margin-left:40px;
+
+}
+.op-txt:hover{
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	border-bottom: 0px solid #4F8DB4;
+	border-right: 0px solid #4F8DB4;
+	
+}
+.op-txt p{
+	padding: 5px 5px 5px 0px;
+	text-align: justify;
 	
 }
 
+.ref{
+	margin-left: auto;
+    margin-right: auto;
+	vertical-align:middle;
+	width: 100%;
+	height: 400px;
+	
 .conbutton {
 	padding: 5px 5px 5px 5px;
 	border:1px solid #EBEEED;
@@ -221,3 +288,5 @@ footer{
 	color: #000000;
 	text-indent:0;
 }
+
+	
